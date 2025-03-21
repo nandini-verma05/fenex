@@ -1,54 +1,4 @@
 
-  
-// const InfoSections = () => {
-//     const sections = [
-//       {
-//         title: "CNC Turning Center",
-//         description:
-//           "OSPAS is the result of many years’ collaboration between our in-house experts and technology partners. It spans our entire oil, gas and NGL networks, refining and distribution system, through to our terminal network, providing extreme agility in the face of demand fluctuations and evolving market conditions.",
-//         image: "https://cloud.appwrite.io/v1/storage/buckets/6791ced30003cf1d6c04/files/67a3703a00193d9c502d/view?project=6790c07f0018598d5209&mode=admin",
-//       },
-//       {
-//         title: "CNC Milling Machine",
-//         description:
-//           "The reliable delivery of energy is essential to businesses and consumers worldwide. Through OSPAS, we ensure seamless operations that keep the supply chain moving efficiently.",
-//         image: "https://cloud.appwrite.io/v1/storage/buckets/6791ced30003cf1d6c04/files/67a36acb00279efe37d0/view?project=6790c07f0018598d5209&mode=admin",
-//       },
-//     ];
-  
-//     return (
-//       <div className="bg-white py-12">
-//         <div className="space-y-12 p-6 container mx-auto">
-//           {sections.map((section, index) => (
-//             <div
-//               key={index}
-//               className={`flex flex-col md:flex-row items-center gap-10 ${
-//                 index % 2 !== 0 ? "md:flex-row-reverse" : ""
-//               }`}
-//             >
-//               {/* Text Content */}
-//               <div className="md:w-1/2 text-center md:text-left">
-//                 <h2 className="text-2xl font-semibold text-gray-900">{section.title}</h2>
-//                 <p className="text-gray-600 mt-4">{section.description}</p>
-//               </div>
-  
-//               {/* Image Section */}
-//               <div className="md:w-1/2">
-//                 <img
-//                   src={section.image}
-//                   alt={section.title}
-//                   className="rounded-2xl shadow-lg w-full object-cover"
-//                 />
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     );
-//   };
-  
-//   export default InfoSections;
-
 "use client";
 import { useState } from "react";
 import Image from "next/image";
@@ -106,7 +56,13 @@ const ExpandableCard = ({ section, reverse }) => {
 
       {/* Image Section */}
       <div className="md:w-1/2">
-        <Image src={section.image} alt={section.title} className="rounded-2xl shadow-lg w-full object-cover" />
+      <Image
+  src={null}
+  alt={section.title}
+  width={500}
+  height={300}
+  className="rounded-2xl shadow-lg w-full object-cover"
+/>
       </div>
     </div>
   );

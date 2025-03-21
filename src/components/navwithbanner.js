@@ -138,11 +138,7 @@ const NavbarWithBanner = () => {
               Products
             </a>
           </li>
-          <li>
-            <a href="#" className="text-white font-medium tracking-wider px-2 py-1 inline-block border-b-2 border-transparent hover:border-cyan-400 transition-all duration-300">
-              Portfolio
-            </a>
-          </li>
+        
           <li>
             <a href="contact" className="text-white font-medium tracking-wider px-2 py-1 inline-block border-b-2 border-transparent hover:border-cyan-400 transition-all duration-300">
               Contact

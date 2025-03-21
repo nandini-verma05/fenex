@@ -1,19 +1,19 @@
 'use client';
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef , useCallback } from 'react';
 import Image from 'next/image';
 import { ChevronLeft, ChevronRight, Users } from 'lucide-react';
 const Partners = () => {
   // Partners data
   const partners = [
-    { id: 1, name: 'Tata Steel', logo: '/partners/tata-steel.png' },
-    { id: 2, name: 'ArcelorMittal', logo: '/partners/arcelormittal.png' },
-    { id: 3, name: 'Jindal Steel', logo: '/partners/jindal.png' },
-    { id: 4, name: 'SAIL', logo: '/partners/sail.png' },
-    { id: 5, name: 'Nippon Steel', logo: '/partners/nippon.png' },
-    { id: 6, name: 'Essar Steel', logo: '/partners/essar.png' },
-    { id: 7, name: 'JSW Steel', logo: '/partners/jsw.png' },
-    { id: 8, name: 'Posco', logo: '/partners/posco.png' },
+    { id: 1, name: 'Tata Steel', logo: '' },
+    { id: 2, name: 'ArcelorMittal', logo: '' },
+    { id: 3, name: 'Jindal Steel', logo: '' },
+    { id: 4, name: 'SAIL', logo: '' },
+    { id: 5, name: 'Nippon Steel', logo: '' },
+    { id: 6, name: 'Essar Steel', logo: '' },
+    { id: 7, name: 'JSW Steel', logo: '' },
+    { id: 8, name: 'Posco', logo: '' },
   ];
 
   // Work showcase data
@@ -22,35 +22,35 @@ const Partners = () => {
       id: 1,
       title: 'Rolling Mill Installation',
       location: 'Mumbai, India',
-      image: '/work/rolling-mill.jpg',
+      image: '',
       description: 'Complete setup of a state-of-the-art rolling mill with capacity of 1.2M tons/year',
     },
     {
       id: 2,
       title: 'Furnace Modernization',
       location: 'Chennai, India',
-      image: '/work/furnace.jpg',
+      image: '',
       description: 'Upgrading existing furnace facilities with energy-efficient technologies',
     },
     {
       id: 3,
       title: 'Continuous Casting Machine',
       location: 'Jamshedpur, India',
-      image: '/work/casting.jpg',
+      image: '',
       description: 'Installation of high-speed continuous casting machine for specialty steel grades',
     },
     {
       id: 4,
       title: 'Fume Extraction System',
       location: 'Pune, India',
-      image: '/work/fume-extraction.jpg',
+      image: '',
       description: 'Environmental compliance upgrade with advanced fume extraction technology',
     },
     {
       id: 5,
       title: 'Steel Plant Automation',
       location: 'Delhi, India',
-      image: '/work/automation.jpg',
+      image: '',
       description: 'Full automation system implementation reducing manual interventions by 80%',
     },
   ];

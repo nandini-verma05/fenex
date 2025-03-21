@@ -8,7 +8,7 @@ const teamMembers = [
   {
     name: "MR. MOHAMMAD HASHIM KHAN",
     role: "Mananging consultant",
-    image: "/team/alice.jpg",
+    image: "",
     experience: "35 Years",
     companies: ["SAUDI IRON & STEEL CO.", "EMIRATES STEEL INDUSTRIES", "QATAR STEEL CO."],
     description:
@@ -17,7 +17,7 @@ const teamMembers = [
   {
     name: "MR. SANJAY KU. CHOUDHARY",
     role: "Technical expert Consultant",
-    image: "/team/bob.jpg",
+    image: "",
     experience: "25 Years",
     companies: ["FeNex Engineering", "Various EPC Projects"],
     description:
@@ -26,7 +26,7 @@ const teamMembers = [
   {
     name: "MR. Y.N. SINGH",
     role: "Chief Technical Consultant",
-    image: "/team/charlie.jpg",
+    image: "",
     experience: "47 Years",
     companies: ["SAIL", "Usha Martin", "Jindal Steel & Power Ltd"],
     description:
@@ -35,7 +35,7 @@ const teamMembers = [
   {
     name: "MR. RAJINDER NATH",
     role: "Advisor Consultant",
-    image: "/team/dana.jpg",
+    image: "",
     experience: "45 Years",
     companies: ["SAIL", "INSDAG", "UNDP"],
     description:
@@ -44,7 +44,7 @@ const teamMembers = [
   {
     name: "MR. AKHTAR KHAN",
     role: "Marketing Consultant",
-    image: "/team/ethan.jpg",
+    image: "",
     experience: "36 Years",
     companies: ["SAUDI IRON & STEEL", "KUWAIT STEEL"],
     description:
@@ -105,7 +105,7 @@ export default function Team() {
               transition-opacity duration-300"
                       ></div>
                       <Image
-                        src={member.image || "/placeholder.svg"}
+                        src={null}
                         alt={member.name}
                         width={200}
                         height={200}

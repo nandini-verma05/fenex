@@ -5,47 +5,47 @@ import Image from "next/image";
 const industries = [
   { 
     title: "Steel Rolling Mills", 
-    image: "/api/placeholder/600/400", 
+    image: "", 
     description: "Advanced manufacturing of high-quality steel products" 
   },
   { 
     title: "Rebar Rolling Mills", 
-    image: "/api/placeholder/600/400", 
+    image: "", 
     description: "Precision engineering for construction reinforcement" 
   },
   { 
     title: "TMT Bar Rolling Mills", 
-    image: "/api/placeholder/600/400", 
+    image: "", 
     description: "Cutting-edge technology for superior strength" 
   },
   { 
     title: "Wire Rod Rolling Mills", 
-    image: "/api/placeholder/600/400", 
+    image: "", 
     description: "Innovative solutions for wire production" 
   },
   { 
     title: "Section Rolling Mills", 
-    image: "/api/placeholder/600/400", 
+    image: "", 
     description: "Specialized mills for structural steel sections" 
   },
   { 
     title: "Electrical Induction Furnace (SMS) Plants", 
-    image: "/api/placeholder/600/400", 
+    image: "", 
     description: "Advanced metallurgical processing technologies" 
   },
   { 
     title: "Continuous Casting Machines (CCM)", 
-    image: "/api/placeholder/600/400", 
+    image: "", 
     description: "Efficient metal casting and shaping solutions" 
   },
   { 
     title: "Oxygen Plants", 
-    image: "/api/placeholder/600/400", 
+    image: "", 
     description: "High-capacity industrial oxygen production" 
   },
   { 
     title: "Steel Pipe, Tube, and Hollow Section Plants", 
-    image: "/api/placeholder/600/400", 
+    image: "", 
     description: "Comprehensive tube manufacturing capabilities" 
   }
 ];
