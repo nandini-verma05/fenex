@@ -51,6 +51,7 @@
 
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 
 const SpecialMachines = () => {
   const sections = [
@@ -105,7 +106,7 @@ const ExpandableCard = ({ section, reverse }) => {
 
       {/* Image Section */}
       <div className="md:w-1/2">
-        <img src={section.image} alt={section.title} className="rounded-2xl shadow-lg w-full object-cover" />
+        <Image src={section.image} alt={section.title} className="rounded-2xl shadow-lg w-full object-cover" />
       </div>
     </div>
   );

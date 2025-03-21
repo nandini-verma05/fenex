@@ -3,7 +3,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { ChevronLeft, ChevronRight, Users } from 'lucide-react';
-
+import nextSlide from 'nextSlide';
+import prevSlide from 'prevSlide';
 const Partners = () => {
   // Partners data
   const partners = [

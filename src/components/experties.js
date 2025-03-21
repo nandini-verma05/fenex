@@ -1,7 +1,7 @@
 'use client';
 import { useRef, useState, useEffect } from "react";
 import { ChevronRightIcon, ChevronLeftIcon } from "@heroicons/react/24/solid";
-
+import Image from "next/image";
 const industries = [
   { 
     title: "Steel Rolling Mills", 
@@ -144,7 +144,7 @@ const ExpertiseSection = () => {
                 ? 'scale-105 border-4 border-blue-500' 
                 : 'scale-100 hover:scale-[1.03]'}`}
             >
-              <img
+              <Image
                 src={industry.image}
                 alt={industry.title}
                 className="absolute inset-0 w-full h-full object-cover"

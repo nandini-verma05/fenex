@@ -162,7 +162,7 @@ export default function AboutUs() {
             </div>
 
             <blockquote className="border-l-4 border-purple-500 pl-6 italic text-gray-600 py-4">
-              "Engineering excellence is not just our profession, it's our passion."
+              {`Engineering excellence is not just our profession, it \'s our passion.`}
             </blockquote>
           </div>
         </section>
